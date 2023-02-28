@@ -5,7 +5,9 @@ const numero =  4
 function recebeNumero(num) {
    if (num % 2 === 0) {
     const mensagem = 'O número é par';
-    console.log(mensagem);
+    return 'é par';
    }
+   return 'é ímpar'
 }
-recebeNumero(numero);
+
+console.log(recebeNumero(numero));

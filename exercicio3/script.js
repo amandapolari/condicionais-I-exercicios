@@ -1,5 +1,5 @@
 const nacionalidade = prompt('Escreva aqui sua nacionalidade');
-const nacionalidadeCorrigida = nacionalidade.toLocaleLowerCase();
+const nacionalidadeCorrigida = nacionalidade.toLowerCase();
 
 function verificaNacionalidade(valorNacionalidade) {
     let mensagem = `A nacionalidade do usuário é ${valorNacionalidade}`
